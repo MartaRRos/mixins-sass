@@ -1,0 +1,18 @@
+@use '../mixins/hover.scss' as *;
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 1rem;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    color: #333;
+    font-size: 3rem;
+}
